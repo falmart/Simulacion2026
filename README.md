@@ -15,7 +15,6 @@
  ├── terminal.py          # Lógica de simulación
  ├── analisis.py          # Análisis estadístico de resultados
  ├── ejecutar.py          # Ejecución principal y guardado de resultados
- ├── generar_informe.py   # Generador de informe LaTeX/PDF
  ├── inicio.py            # Punto de entrada principal
  ├── requirements.txt     # Dependencias
  └── README.md            # Este archivo
@@ -43,8 +42,7 @@
  ```
  
  Esto ejecutará varias réplicas de simulación, calculará estadísticas y guardará un archivo `resultados_simulacion.txt`.
- 
- Generar informe PDF con LaTeX:
+
  
  ```bash
  python generar_informe.py
@@ -66,7 +64,6 @@
  - `terminal.py`: simula la llegada y el ciclo completo de cada vehículo
  - `analisis.py`: calcula intervalos de confianza y resume métricas
  - `ejecutar.py`: ejecuta réplicas, imprime resultados y guarda texto
- - `generar_informe.py`: genera un informe en formato LaTeX
  
  ## Resultados esperados
  
